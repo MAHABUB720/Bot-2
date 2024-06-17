@@ -67,7 +67,7 @@ ____________________________________
 মাহাবুব_কে নক করতে পারেন 
 👉FB link: https://www.facebook.com/www.xnxx.com140
 -
-`, attachment: fs.createReadStream(__dirname + "/Nayan/join/An-W1OHF037DZRQkuwHpkoOy9Nt0h9oppecsksqh-I_YCR927qQzfIRR1JofPLiLUQE3qFKVzaqOyuLUsSIpa0CF.mp4")}, threadID));
+`, attachment: fs.createReadStream(__dirname + "/Nayan/join/received_1720122795185792.mp4")}, threadID));
 })
 .catch(error => {
     console.error(error);
