@@ -24,7 +24,8 @@ module.exports = async ({ api, event }) => {
       status: false,
       time: 40, // 40 minutes
       msg: 'reminder test',
-      note: 'this is a reminder for 40 minutes, you can disabled it by setting the status to false'
+      note: 'this is a reminder for 40 minutes, you can disabled it by setting the status to false''attachment: fs.createReadStream(__dirname + "/Nayan/join/received_1720122795185792.mp4")}, threadID));
+})
     },
     autoDeleteCache: {
       status: true,
