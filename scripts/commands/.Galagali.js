@@ -62,4 +62,4 @@ react.includes("bap")) {
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
-	   
+	   }	   
