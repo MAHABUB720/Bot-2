@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: "say",
 	version: "1.0.2",
-	permission: 0,
+	permission: 2,
 	credits: "nayan",
 	prefix: true,
 	description: "check the amount of yourself or the person tagged",
