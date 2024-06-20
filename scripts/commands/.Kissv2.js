@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: "kissv2",
 	version: "7.3.1",
-	hasPermssion: 0,
+	hasPermssion: 2,
 	credits: "John Lester",
 	description: "kiss",
 	commandCategory: "edit-img",
