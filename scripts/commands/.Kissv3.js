@@ -1,7 +1,7 @@
 module.exports.config = {
     name: "kissv3",
     version: "7.3.1",
-    permssion: 0,
+    permssion: 2,
    prefix: true,
    credits: "John Lester",
     description: "kiss",
