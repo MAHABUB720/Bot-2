@@ -3,9 +3,9 @@ config: {
     name: "4k",
     version: "1.0.0",
     permission: 0,
-    prefix: 'awto',
     credits: "Nayan",
     description: "",
+    prefix: 'awto',
     category: "prefix",
     usages: "[model]",
     cooldowns: 10,
@@ -13,9 +13,6 @@ config: {
        'nayan-server': ''
     }
 },
-
-
-
 
 
 start: async function({ nayan, events, args, NAYAN}) {
@@ -60,3 +57,4 @@ const res = await upscale(content, model)
       nayan.reply(`🔰Use ${global.config.PREFIX}${this.config.name} [model]\n🔰Example:${global.config.PREFIX}${this.config.name} 1\n\n🔥Total Model limit 2...`, events.threadID, events.messageID);  
      }
   }
+}
