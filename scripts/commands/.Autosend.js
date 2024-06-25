@@ -2,7 +2,7 @@ module.exports.config = {
     name: "autosend",
     version: "1.0.1",
     permission: 0,
-    prefix: false,
+    prefix: true,
     credits: "Imran",
     description: "sad video",
     category: "user",
