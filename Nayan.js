@@ -8,7 +8,7 @@ module.exports = async ({ api, event }) => {
       note: 'automatically change the bot bio.'
     },
     notification: {
-      status: false,
+      status: true,
       time: 39, // 39 minutes
       note: 'bot will update you on his informations like all users, all groups, all operators, all admins every 30 minutes'
     },
