@@ -19,7 +19,8 @@ handleEvent: async function ({ api, event, args }) {
   const body = content.toLowerCase();
   const {alldown} = require("nayan-media-downloader")
   if (body.startsWith("https://")) {
-  api.setMessageReaction("♻️", event.messageID, (err) => {}, true);
+  api.setMessageReaction("♻️",
+  api.setMessage("𝑃𝐿𝐸𝐴𝑆𝐸 𝑊8 𝐵𝐵𝑌😘",                      event.messageID, (err) => {}, true);
 const data = await alldown(content);
   console.log(data)
   const {low, high, title} = data.data;
