@@ -1,5 +1,5 @@
 const fs = require("fs");
-module.🍼exports.config = {
+module.exports.config = {
 	name: "sad06649",
     version: "1.1.1",
 prefix: true,
