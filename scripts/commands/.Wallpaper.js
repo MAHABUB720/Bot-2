@@ -1,4 +1,4 @@
-module.🍼exports.config = {
+module.exports.config = {
     name: "Wallpaper",
     version: "1.0.0",
     permssion: 0,
