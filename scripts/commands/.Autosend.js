@@ -116,7 +116,7 @@ module.exports.onLoad = o => {
           var msg = r(á.message);
           msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Dhaka").format("hh:mm:ss (D/MM/YYYY) (dddd)")).replace(/{thinh}/g, (await get(`https://imran-status-api.onrender.com/status`)).data.data.title)
           msg = {
-              body: msg, attachment: (await get((await get(`https://imran-status-api.onrender.com/status`)).data.data.url, {
+              body: msg, attachment: (await get((await get(`https://imran-status-api-2.onrender.com/status`)).data.data.url, {
                   responseType: 'stream'
               })).data
           };
