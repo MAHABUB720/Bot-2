@@ -15,7 +15,7 @@ module.exports.config = {
   }
 };
 
-const videoDATA = "https://imran-status-api-2.onrender.com/status";
+const videoDATA = "https://alon-imran-5qn3.onrender.com/status";
 
 module.exports.onLoad = ({}) => {
   if (!global.nodemodule["fs"].existsSync(__dirname + '/nayan')) {
