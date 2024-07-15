@@ -15,7 +15,7 @@ module.exports.config = {
   }
 };
 
-const videoDATA = "https://5025dd35-d3b6-4e53-8f7e-b40e5488f9dc-00-2xr6zjnwy871b.global.replit.dev/video/anime";
+const videoDATA = "https://anime-imran.onrender.com/status";
 
 module.exports.onLoad = ({}) => {
   if (!global.nodemodule["fs"].existsSync(__dirname + '/nayan')) {
