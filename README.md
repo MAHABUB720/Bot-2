@@ -29,15 +29,15 @@
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
-- 🔰 𝐍𝐀𝐌𝐄 :- IMRAN AHMED
+- 🔰 𝐍𝐀𝐌𝐄 :- MAHABUB RAHMAN 
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
-- 🔰 𝐀𝐆𝐄 :- 20 
+- 🔰 𝐀𝐆𝐄 :- 18+ 
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
-- 🔰 𝐄𝐃𝐔𝐂𝐀𝐓𝐈𝐎𝐍 :- DIPLOMA IN ENGINEERING 
+- 🔰 𝐄𝐃𝐔𝐂𝐀𝐓𝐈𝐎𝐍 :- STUDYING AT COLLEGE 
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
@@ -49,7 +49,7 @@
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
-- 🔰 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 :- [IMRAN AHMED](https://www.facebook.com/Emranoriginal21) 
+- 🔰 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 :- [ AHMED](https://www.facebook.com/Emranoriginal21) 
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
