@@ -49,15 +49,15 @@
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
-- 🔰 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 :- [ AHMED](https://www.facebook.com/Emranoriginal21) 
+- 🔰 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 :- [MR᭄﹅ MAHABUB﹅ メꪜ](https://www.facebook.com/www.xnxx.com140) 
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
-- 🔰 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐏𝐀𝐆𝐄 :- [IMRAN AHMED](https://www.facebook.com) 
+- 🔰 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐏𝐀𝐆𝐄 :- [MR᭄﹅ MAHABUB﹅ メꪜ](https://www.facebook.com/www.xnxx.com140) 
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
-- 🔰 𝐆𝐈𝐓𝐇𝐔𝐁 :- [MR-IMRAN-60](https://github.com/MR-IMRAN-60) 
+- 🔰 𝐆𝐈𝐓𝐇𝐔𝐁 :- [NOT PROFESSIONAL]() 
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
