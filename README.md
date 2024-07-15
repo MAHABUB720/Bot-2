@@ -1,7 +1,7 @@
 ![your_text (1)](https://user-images.githubusercontent.com/20098740/178626261-2bbb5de6-2290-47d6-abc0-729eb0e330e4.png)
 ![FOLLOWUSPLEASE](https://user-images.githubusercontent.com/20098740/178381026-1c2ecd91-7eb5-4ace-84b5-c0d16b677cb6.gif)
 ![your_text (1)](https://user-images.githubusercontent.com/20098740/178626261-2bbb5de6-2290-47d6-abc0-729eb0e330e4.png)
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=23&color=30FF40&background=000000¢er=true&vCenter=true&width=420&height=60&lines=👋+HELLO+WORLD%2C+I'M+IMRAN+HERE+💁;😌+TODAY+I+WILL+TELL+YOU+🤗;💁+PLEASE+FOLLOW+MY+GITHUB+🙏;💻+THANKS+MY+All+FAMILY+MEMBERS+🤙+🥰)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=23&color=30FF40&background=000000¢er=true&vCenter=true&width=420&height=60&lines=👋+HELLO+WORLD%2C+I'M+MAHABUB+HERE+💁;😌+TODAY+I+WILL+TELL+YOU+🤗;💁+PLEASE+FOLLOW+MY+GITHUB+🙏;💻+THANKS+MY+All+FAMILY+MEMBERS+🤙+🥰)](https://git.io/typing-svg)
  
 <img src="https://github.com/MRVIVEK-CODER/Decompiler/blob/main/106824690-8dd73a00-66ad-11eb-89e2-53e13ac6f594.gif" alt="" border="0" />
  
@@ -11,12 +11,12 @@
  
  𝚅𝙸𝚂𝙸𝚃𝙾𝚁𝚂 𝙲𝙾𝚄𝙽𝚃
  
- <img src="https://profile-counter.glitch.me/MR-IMRAN-60/count.svg" />
+ <img src="https://profile-counter.glitch.me/ MAHABUB0712/count.svg" />
 <a href="https://api.daily.dev/get?r=MR-IMRAN-60"><img src="https://opencollective.com/vuejs/contributors.svg?width=900" /></a>
  
 </p>
  
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MR-IMRAN-60&theme=vue)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MAHABUB0712&theme=vue)
  
 <img src="https://raw.githubusercontent.com/msoftware/msoftware/output/github-contribution-grid-snake.svg" />
  
@@ -24,7 +24,7 @@
  
 <h3><b><i>🏆 Github Statistics :</i></b></h3>
  
-<a href="https://github.com/MR-IMRAN-60"><img title="trophy" src="https://github-profile-trophy.vercel.app/?username=MR-IMRAN-60&theme=monokai"></a>
+<a href="https://github.com/ MAHABUB0712"><img title="trophy" src="https://github-profile-trophy.vercel.app/?username= MAHABUB0712&theme=monokai"></a>
  
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
