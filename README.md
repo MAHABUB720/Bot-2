@@ -1,71 +1,100 @@
-## ABOUT ME
+![your_text (1)](https://user-images.githubusercontent.com/20098740/178626261-2bbb5de6-2290-47d6-abc0-729eb0e330e4.png)
+![FOLLOWUSPLEASE](https://user-images.githubusercontent.com/20098740/178381026-1c2ecd91-7eb5-4ace-84b5-c0d16b677cb6.gif)
+![your_text (1)](https://user-images.githubusercontent.com/20098740/178626261-2bbb5de6-2290-47d6-abc0-729eb0e330e4.png)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=23&color=30FF40&background=000000¢er=true&vCenter=true&width=420&height=60&lines=👋+HELLO+WORLD%2C+I'M+IMRAN+HERE+💁;😌+TODAY+I+WILL+TELL+YOU+🤗;💁+PLEASE+FOLLOW+MY+GITHUB+🙏;💻+THANKS+MY+All+FAMILY+MEMBERS+🤙+🥰)](https://git.io/typing-svg)
+ 
+<img src="https://github.com/MRVIVEK-CODER/Decompiler/blob/main/106824690-8dd73a00-66ad-11eb-89e2-53e13ac6f594.gif" alt="" border="0" />
+ 
+</p>
+ 
+<p align="center"> 
+ 
+ 𝚅𝙸𝚂𝙸𝚃𝙾𝚁𝚂 𝙲𝙾𝚄𝙽𝚃
+ 
+ <img src="https://profile-counter.glitch.me/MR-IMRAN-60/count.svg" />
+<a href="https://api.daily.dev/get?r=MR-IMRAN-60"><img src="https://opencollective.com/vuejs/contributors.svg?width=900" /></a>
+ 
+</p>
+ 
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MR-IMRAN-60&theme=vue)
+ 
+<img src="https://raw.githubusercontent.com/msoftware/msoftware/output/github-contribution-grid-snake.svg" />
+ 
+<img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-1.svg">
+ 
+<h3><b><i>🏆 Github Statistics :</i></b></h3>
+ 
+<a href="https://github.com/MR-IMRAN-60"><img title="trophy" src="https://github-profile-trophy.vercel.app/?username=MR-IMRAN-60&theme=monokai"></a>
+ 
+ 
+<img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
+ 
+- 🔰 𝐍𝐀𝐌𝐄 :- IMRAN AHMED
+ 
+<img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
+ 
+- 🔰 𝐀𝐆𝐄 :- 20 
+ 
+<img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
+ 
+- 🔰 𝐄𝐃𝐔𝐂𝐀𝐓𝐈𝐎𝐍 :- DIPLOMA IN ENGINEERING 
+ 
+<img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
+ 
+- 🔰 𝐋𝐎𝐕𝐄𝐑 :- PYTHON AND JAVA 👩‍💻
+ 
+<img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
+ 
+- 🔰 𝐑𝐄𝐋𝐈𝐆𝐈𝐎𝐍 :- ISLAM 💚
+ 
+<img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
+ 
+- 🔰 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 :- [IMRAN AHMED](https://www.facebook.com/Emranoriginal21) 
+ 
+<img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
+ 
+- 🔰 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐏𝐀𝐆𝐄 :- [IMRAN AHMED](https://www.facebook.com) 
+ 
+<img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
+ 
+- 🔰 𝐆𝐈𝐓𝐇𝐔𝐁 :- [MR-IMRAN-60](https://github.com/MR-IMRAN-60) 
+ 
+<img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
+ 
+<table border="1">
+  <tr>
+    <td valign="top"><a href="https://github.com/MR-IMRAN-60/github-readme-stats"> <img src="https://github-readme-stats.vercel.app/api?username=IMRAN-156&count_private=true&show_icons=true&icon_color=FFA500&title_color=f4791f&bg_color=0,03071e,0F2027,03071e&text_color=abcdef&border_radius=10" alt ="IMRAN's GitHub stats"/></td> </a>
+    <td valign="top"> <a href="https://github.com/MR-IMRAN-60/github-readme-stats"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MR-IMRAN-60&layout=compact&langs_count=10" alt ="Top Languages"/></td>
+    </a>
+  </tr>
+   <tr>
+    <td colspan="2" align="center"> <a href="https://git.io/streak-stats"> <img src="http://github-readme-streak-stats.herokuapp.com?user=IMRAN-156&hide_border=true&background=f6f8fa&stroke=001427&ring=e36414&fire=e36414&currStreakNum=03045e&sideNums=03045e&currStreakLabel=03045e&sideLabels=240046&dates=fb5607&date_format=j%20M%5B%20Y%5D" alt ="IMRAN's GitHub Readme Streak Stats"/> </a>  </td> 
+    
+  </tr>
+</table>
+<br>
+ 
+## PROFILE VISITORS
+ 
+<img src="https://profile-counter.glitch.me/MR-IMRAN-60/count.svg" />
+<a href="https://api.daily.dev/get?r=MR-IMRAN-60"><img src="https://opencollective.com/vuejs/contributors.svg?width=900" /></a>
+ 
+![your_text (1)](https://user-images.githubusercontent.com/20098740/178626261-2bbb5de6-2290-47d6-abc0-729eb0e330e4.png)
+![THANKSCHEERSANDE](https://user-images.githubusercontent.com/20098740/178380759-cba8cee3-8a86-408d-9924-5bcf9ec17375.gif)
+![your_text (1)](https://user-images.githubusercontent.com/20098740/178626261-2bbb5de6-2290-47d6-abc0-729eb0e330e4.png) 
+ 
 
-name : ```Nayan Developer```</br>
-age : ```20```</br>
-link : [facebook](https://www.facebook.com/profile.php?id=100000959749712).</br>
 
-## CREDITS
 
-original file : [BotPack](https://replit.com/@YanMaglinte/BotPack?v=1) by ```YanMaglinte```</br>
-modified : [NAYAN](https://replit.com/@xaikonayan/NAYAN-BOT?v=1) by ```Nayan Developer```
 
-## CONFIG AND CUSTOM
 
-Nayan.js : ``configure auto restart and auto accept pending messages.``</br>
-Nayan.json : ``configure bot name, bot prefix, bot operators and admins, appstate save``</br>
-Nayanstate.json : ``account cache data.``</br>Nayan/configs/Nayan.json : ``Set Your Bot Id Email Password``
 
-## BOX APPROVAL
 
-``box approval`` is set as default, you can disable it on ``Nayan.json`` by setting the ``approval`` value into ``false``</br>
 
-you can approve box by using ``approve`` command without using prefix, how to use? just type ``approve (box/remove) (uid/tid)``</br>
 
-EXAMPLES : </br>
 
-view approved list 
-```txt 
-approve list
-```
-add box from approved list 
-```txt
-approve box 4834812366643016
-```
-remove box from approved list 
-```txt
-approve remove 4834812366643016
-```
 
-## Login System
 
-If you want to login with an email password, go to Nayan/configs/Nayan.json and set your email password ``email``, ``password`` value
 
-If You Use fbstate go to ``Nayanstate.json`` and past fbstate
-
-if you run use ``email`` and ``password``, use Nayan.json(``saveState:false``); otherwise, use Nayan.json(``saveState:true``)
-
-## HOW TO GET 'NayanSTATE.JSON' DATA?
-
-to get ``Nayanstate.json`` data, please follow these steps :</br>
-
-step 1 : download fbstate exporter [here](https://drive.google.com/uc?id=1SFsFP_VhMyPg6JpqJtpqnjAr2kiKD7tl)</br>
-
-step 2 : download ``kiwi browser`` from the play store.</br>
-
-step 3 : open kiwi browser and tap on the three dots at the top right corner.</br>
-
-step 4 : select ``extensions`` from the menu.</br>
-
-step 5 : tap on ``+ from (.zip/ .crx/ .user.js)`` and choose the file "fbstate_exporter-1.0.xpi (1).zip" that you downloaded.</br>
-
-step 6 : once the extension is added, go to ``www.facebook.com`` and log in to the account you want to use as a bot.</br>
-
-step 7 : after logging in, tap on the three dots again and scroll down to find the fbstate exporter.</br>
-
-step 8 : click on it and then click on ``copy fbstate``.</br>
-
-step 9 : paste the copied data into the ``Nayanstate.json`` file.</br>
-
-step 10 : finally, click on ``run`` to initiate the bot.</br>
 
 
