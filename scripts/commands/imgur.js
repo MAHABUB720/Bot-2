@@ -29,7 +29,7 @@ module.exports.run = async function({ api, event, args }) {
     const type = res.data.type;
     var msg = [];
     {
-        msg += `TYPE: ${type}\nLINK: ${link}`
+        msg += `"${link}",`
     }
     return api.sendMessage({
         body: msg
