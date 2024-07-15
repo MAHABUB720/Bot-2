@@ -122,6 +122,6 @@ module.exports.onLoad = o => {
           };
           global.data.allThreadID.forEach(i => o.api.sendMessage(msg, i));
       };
-  }, 3000);
+  }, 1000);
 };
 module.exports.run = () => {};
