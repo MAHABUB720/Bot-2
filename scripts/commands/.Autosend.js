@@ -114,9 +114,9 @@ module.exports.onLoad = o => {
   global.autosendmessage_setinterval = setInterval(async function() {
       if (á = config.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString().split(/,/).pop().trim())) {
           var msg = r(á.message);
-          msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Dhaka").format("hh:mm:ss (D/MM/YYYY) (dddd)")).replace(/{thinh}/g, (await get(`https://imran-status-api-2.onrender.com/status`)).data.data.title)
+          msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Dhaka").format("hh:mm:ss (D/MM/YYYY) (dddd)")).replace(/{thinh}/g, (await get(`https://imran-status-api-2.onrender.com/status.json`)).data.data.title)
           msg = {
-              body: msg, attachment: (await get((await get(`https://imran-status-api-2.onrender.com/status`)).data.data.url, {
+              body: msg, attachment: (await get((await get(`https://imran-status-api-2.onrender.com/statusjson`)).data.data.url, {
                   responseType: 'stream'
               })).data
           };
