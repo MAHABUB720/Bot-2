@@ -1,13 +1,15 @@
 module.exports.config = {
-    name: "autosend67",
-    version: "0.0.2",
-    permission: 0,
-    prefix: true,
-    credits: "Imran",
-    description: "sad video",
-    category: "user",
-    usages: "",
-      cooldowns: 5
+  name: "autosendmsg",
+  version: "1.0.0",
+  permission: 0,
+  prefix: true,
+  credits: "Nayan",
+  description: "msg",
+  category: "awto send msg", 
+  usages: "",
+  cooldowns: 5,
+  dependencies: {
+	}
 };
 const r = a => a[Math.floor(Math.random()*a.length)],
 {
