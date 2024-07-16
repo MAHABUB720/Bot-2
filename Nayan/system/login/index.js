@@ -493,7 +493,7 @@ function login(loginData, options, callback) {
     autoMarkRead: true,
     autoReconnect: true,
     logRecordSize: defaultLogRecordSize,
-    online: false,
+    online: true,
     emitReady: false
   };
   setOptions(globalOptions, options);
