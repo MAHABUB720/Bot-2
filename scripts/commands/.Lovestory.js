@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "lovestory", 
+  name: "🥰", 
   version: "1.0.0", 
   permission: 0,
   credits: "Imran Ahmed_x_Mahabub Rahman",
