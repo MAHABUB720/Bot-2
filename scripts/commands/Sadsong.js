@@ -3,6 +3,7 @@ module.exports.config = {
   name: "Sadsong",
   version: "1.0.0",
   permssion: 0,
+  prefix: true,
   credits: "S0H4G",
   description: "SAD VEDIO",
   category: "Hình ảnh",
