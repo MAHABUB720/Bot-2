@@ -2,10 +2,10 @@
 module.exports.config = {
   name: "Sadsong",
   version: "1.0.0",
-  hasPermssion: 0,
+  permssion: 0,
   credits: "S0H4G",
   description: "SAD VEDIO",
-  commandCategory: "Hình ảnh",
+  category: "Hình ảnh",
   usages: "sad vedio",
   cooldowns: 5,
   dependencies: {
