@@ -8,9 +8,9 @@ const config = {
      name: "music",
      version: "1.0.0",
      permssion: 0,
-     Prefix: true,
      credits: "Mirai Team & Yan Maglinte",
      description: "Play music via YouTube link or search keyword",
+     prefix: true,
      category: "Means",
      usages: "[searchMusic]",
      cooldowns: 0
