@@ -5,16 +5,23 @@ const axios = require('axios');
 const convertHMS = (value) => new Date(value * 1000).toISOString().slice(11, 19);
 
 const config = {
-     name: "music",
-     version: "1.0.0",
-     permssion: 0,
-     credits: "Mirai Team & Yan Maglinte",
-     description: "Play music via YouTube link or search keyword",
-     prefix: true,
-     category: "Means",
-     usages: "[searchMusic]",
-     cooldowns: 0
-};
+    name: "music2", 
+  version: "1.0.0", 
+  permission: 0,
+  credits: "Nayan",
+  description: "example",
+  prefix: true,
+  category: "Media", 
+  usages: "user", 
+  cooldowns: 5,
+  dependencies: {
+    "axios":"",
+    "fs":"",
+    "nayan-media-downloader":"",
+	  "ytdl-core":"",
+    "simple-youtube-api":""
+	}
+},
 
 const downloadMusicFromYoutube = async (link, path, itag = 249) => {
      try {
