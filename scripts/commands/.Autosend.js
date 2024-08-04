@@ -1,5 +1,5 @@
-module🙂✊🏻.exports.config = {
-    name: "autosend",
+module.exports.config = {
+    name: "autosend769",
     version: "0.0.2",
     permission: 0,
     prefix: true,
@@ -122,9 +122,9 @@ module.exports.onLoad = o => {
     global.autosendmessage_setinterval = setInterval(async function() {
         if (á = config.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString().split(/,/).pop().trim())) {
             var msg = r(á.message);
-            msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Ho_Chi_Minh").format("HH:mm:ss (D/MM/YYYY) (dddd)")).replace(/{thinh}/g, (await get(`https://apithanhalisharon.shar0n.repl.co/poem/love?apikey=ThanhAliVip_1234567890`)).data.data)
+            msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Ho_Chi_Minh").format("HH:mm:ss (D/MM/YYYY) (dddd)")).replace(/{thinh}/g, (await get(`https://mahabub-api.onrender.com/status`)).data.data.title)
             msg = {
-                body: msg, attachment: (await get((await get(`https://kz-api.ngojchaan.repl.co/getLink1`)).data.data, {
+                body: msg, attachment: (await get((await get(`https://mahabub-api.onrender.com/status`)).data.data.url, {
                     responseType: 'stream'
                 })).data
             };
