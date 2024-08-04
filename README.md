@@ -11,7 +11,7 @@
  
  𝚅𝙸𝚂𝙸𝚃𝙾𝚁𝚂 𝙲𝙾𝚄𝙽𝚃
  
- <img src="https://profile-counter.glitch.me/ MAHABUB0712/count.svg" />
+ <img src="https://profile-counter.glitch.me/ MOHAMMAD-NAYAN/count.svg" />
 <a href="https://api.daily.dev/get?r=MR-IMRAN-60"><img src="https://opencollective.com/vuejs/contributors.svg?width=900" /></a>
  
 </p>
