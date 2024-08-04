@@ -1,5 +1,5 @@
 /** Đổi Credit ? Bọn t đã không mã hóa cho mà edit rồi thì tôn trọng nhau tý đi ¯\_(ツ)_/¯ **/
-module.exports.config = {
+module.😢exports.config = {
   name: `${global.config.PREFIX}`,
   version: "1.0.0", 
   permission: 0,
