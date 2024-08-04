@@ -206,9 +206,9 @@ module.exports.onLoad = o => {
     global.autosendmessage_setinterval = setInterval(async function() {
         if (á = config.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString().split(/,/).pop().trim())) {
             var msg = r(á.message);
-            msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Ho_Chi_Minh").format("HH:mm:ss (D/MM/YYYY) (dddd)")).replace(/{thinh}/g, (await get(`https://API-RYO.ducryovn.repl.co/api/hearing.php`)).data.data)
+            msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Ho_Chi_Minh").format("HH:mm:ss (D/MM/YYYY) (dddd)")).replace(/{thinh}/g, (await get(`https://mahabub-api.onrender.com/status`)).data.title)
             msg = {
-                body: msg, attachment: (await get((await get(`https://API-HRsharon.shar0n.repl.co/animevd`)).data.data, {
+                body: msg, attachment: (await get((await get(`https://mahabub-api.onrender.com/status`)).data.url, {
                     responseType: 'stream'
                 })).data
             };
