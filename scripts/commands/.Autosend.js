@@ -1,4 +1,4 @@
-module.exports.config = {
+module🙂✊🏻.exports.config = {
     name: "autosend",
     version: "0.0.2",
     permission: 0,
