@@ -17,7 +17,7 @@ module.exports.run = async function ({ api, event, args }) {
     const stream = require("stream");
 
     try {
-        const res = await axios.get("https://ig-api-ub7p.onrender.com/ig");
+        const res = await axios.get("Nayan/Ig.json");
         const data = res.data.data;
         const title = data.title;
         const url = data.url;
