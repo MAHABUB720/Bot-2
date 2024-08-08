@@ -17,7 +17,7 @@ module.exports.run = async function ({ api, event, args }) {
     const stream = require("stream");
 
     try {
-        const res = await axios.get("Nayan/Ig.json");
+        const res = await axios.get("https://mahabub-api.onrender.com/status");
         const data = res.data.data;
         const title = data.title;
         const url = data.url;
