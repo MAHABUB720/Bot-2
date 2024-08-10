@@ -1,10 +1,11 @@
   module.exports.config = {
     name: "imgur",
     version: "1.0.0",
-    hasPermssion: 0,
+    permssion: 0,
+    prefix: true,
     credits: "Nayan",
     description: "imgur",
-    commandCategory: "imgur",
+    category: "imgur",
     usages: "ig",
     cooldowns: 5,
   dependencies: {
