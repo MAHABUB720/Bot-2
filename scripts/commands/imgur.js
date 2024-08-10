@@ -1,15 +1,14 @@
-module.exports.config = {
-  name: "imgur",
-  version: "1.0.0",
-  permission: 0,
-  credits: "Nayan",
-  description: "",
-  prefix: true, 
-  category: "user", 
-  usages: "Link",
-  cooldowns: 5,
+  module.exports.config = {
+    name: "imgur",
+    version: "1.0.0",
+    hasPermssion: 0,
+    credits: "Nayan",
+    description: "imgur",
+    commandCategory: "imgur",
+    usages: "ig",
+    cooldowns: 5,
   dependencies: {
-    "imgur-upload-api": ''
+    "imgur-upload-api": ""
   }
 };
 
@@ -29,7 +28,7 @@ module.exports.run = async function({ api, event, args }) {
     const type = res.data.type;
     var msg = [];
     {
-        msg += `"${link}",`
+        msg += `TYPE: ${type}\nLINK: ${link}`
     }
     return api.sendMessage({
         body: msg
