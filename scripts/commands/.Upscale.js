@@ -1,63 +1,40 @@
 module.exports.config = {
-    name: "upscale",
+    name: "imu",
     version: "1.0.0",
-    permission: 0,
-    credits: "Nayan",
-    description: "",
-    prefix: true,
-    category: "prefix",
-    usages: "[model]",
-    cooldowns: 10,
-    dependencies: {
-       'nayan-server': ''
-    }
+    permssion: 0,
+    prefix: false,
+    credits: "KENLIEPLAYS\\Depressedriyad",
+    description: "Talk to Ana",
+    category: "Ana",
+    usages: "Ana [ask]",
+    cooldowns: 2,
 };
 
-
-
-
-
 module.exports.run = async function({ api, event, args }) {
-  
-    const axios = require("axios")
-    const request = require("request")
-    const fs = require("fs-extra")
-    const {upscale} = require('nayan-server')
-          if (event.type !== "message_reply") return api.sendMessage("[❗]➜ You must reply to a photo", event.threadID, event.messageID);
-        if (!event.messageReply.attachments || event.messageReply.attachments.length == 0) return api.sendMessage("[❗]➜ You must reply to a photo", event.threadID, event.messageID);
-        if (event.messageReply.attachments[0].type != "photo") return api.sendMessage("[❓]➜ This is not an image", event.threadID, event.messageID);
-  const content = (event.type == "message_reply") ? event.messageReply.attachments[0].url : args.join(" ");
-  
-  const mod = args[0];
-  
-const model = mod
-  try {
-const res = await upscale(content, model)
-  console.log(res)
-  api.setMessageReaction("✅", event.messageID, (err) => {
-      }, true);
-  const img1 = res.image_url
-  const job = res.job_id
-        var msg = [];
-
-  const pic = (
-    await axios.get(`https://images.prodia.xyz/${job}.png`,
-      { responseType: 'stream' }
-    )
-  ).data;
-
-        {
-            msg += `✅HERE YOUR PHOTO`
+    const axios = require("axios");
+    let { messageID, threadID, senderID, body } = event;
+    let tid = threadID,
+    mid = messageID;
+    const content = encodeURIComponent(args.join(" "));
+    if (!args[0]) return api.sendMessage(" hm bolo bby😸 ...", tid, mid);
+    try {
+        const res = await axios.get(`https://simsimi.fun/api/v2/?mode=talk&lang=bn&message=${content}&filter=true`);
+        const respond = res.data.success;
+        if (res.data.error) {
+            api.sendMessage(`Error: ${res.data.error}`, tid, (error, info) => {
+                if (error) {
+                    console.error(error);
+                }
+            }, mid);
+        } else {
+            api.sendMessage(respond, tid, (error, info) => {
+                if (error) {
+                    console.error(error);
+                }
+            }, mid);
         }
-
-        return api.sendMessage({
-            body: msg,
-            attachment: pic
-
-        }, event.threadID, event.messageID);
-     } catch (err) {
-     api.setMessageReaction("❌", event.messageID, (err) => {
-    }, true);
-      api.sendMessage(`🔰Use ${global.config.PREFIX}${this.config.name} [model]\n🔰Example:${global.config.PREFIX}${this.config.name} 1\n\n🔥Total Model limit 2...`, event.threadID, event.messageID);  
-     }
-  };
+    } catch (error) {
+        console.error(error);
+        api.sendMessage("An error occurred while fetching the data.", tid, mid);
+    }
+};
