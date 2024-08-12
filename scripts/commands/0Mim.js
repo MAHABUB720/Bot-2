@@ -17,7 +17,7 @@ module.exports = {
 
   handleReply: async function ({ api, event, handleReply }) {
     try {
-      const response = await axios.get(`https://sim-teach-apis-clp8.onrender.com/sim${encodeURIComponent(event.body)}`);
+      const response = await axios.get(`http://37.27.114.136:25472/sim?type=ask&ask=${encodeURIComponent(event.body)}`);
       console.log(response.data);
       const result = response.data.data.msg;
 
@@ -68,7 +68,7 @@ module.exports = {
         }, events.messageID);
     }
 
-      const response = await axios.get(`https://sim-teach-apis-clp8.onrender.com/sim?type=ask&ask=${encodeURIComponent(msg)}`);
+      const response = await axios.get(`http://37.27.114.136:25472/sim?type=ask&ask=${encodeURIComponent(msg)}`);
       console.log(response.data);
       const replyMessage = response.data.data.msg;
 
