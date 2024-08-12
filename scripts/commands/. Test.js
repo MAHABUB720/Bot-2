@@ -17,8 +17,7 @@ module.exports.config = {
   module.exports.run = async function({ api, event, args, Users, Threads, Currencies}) {
     const uid = event.senderID;
     const info = args.join(" ");
-    const apis = await axios.get('https://sim-api-g697.onrender.com/sim?reply=${content}')
-  const teach = apis.data.sim
+    const teach = await axios.get('https://sim-api-g697.onrender.com')
     var id = Object.keys(event.mentions)[0] || event.senderID;
   var nam = await Users.getNameUser(id);
   var ThreadInfo = await api.getThreadInfo(event.threadID);
@@ -30,7 +29,7 @@ module.exports.config = {
       const ans = msg[1].trim();
 
 
-      const img = `${teach}/sim?type=teach&ask=${ask}&ans=${ans}`
+      const img = `${teach}/sim?teach=${ask}&ans=${ans}`
       try {
         const response = await axios.get(img);
 
