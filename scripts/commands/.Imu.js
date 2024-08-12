@@ -18,7 +18,7 @@ module.exports.run = async function({ api, event, args }) {
     const content = encodeURIComponent(args.join(" "));
     if (!args[0]) return api.sendMessage(" hm bolo bby😸 ...", tid, mid);
     try {
-        const res = await axios.get(`http://37.27.114.136:25472/sim?type=ask&ask=ki koro sjscd`);
+        const res = await axios.get(`https://sim-api-g697.onrender.com/sim?type=ask&ask=ki koro sjscd`);
         const respond = res.data.success;
         if (res.data.error) {
             api.sendMessage(`Error: ${res.data.error}`, tid, (error, info) => {
