@@ -17,7 +17,7 @@ module.exports = {
 
   handleReply: async function ({ api, event, handleReply }) {
     try {
-      const response = await axios.get(`https://sim-api-g697.onrender.com/sim?type=ask&ask=${encodeURIComponent(event.body)}`);
+      const response = await axios.get(`https://sim-teach-apis-clp8.onrender.com/sim${encodeURIComponent(event.body)}`);
       console.log(response.data);
       const result = response.data.data.msg;
 
