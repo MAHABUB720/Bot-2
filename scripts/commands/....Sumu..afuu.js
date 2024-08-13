@@ -18,11 +18,11 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["«🌚🤝»\n\n${(!global.config.BOTNAME)}"];
+   var hi = ["«🌚🤝»"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
-  "https://i.imgur.com/1zxH1Z6.mp4",https://i.imgur.com/1zxH1Z6.mp4"
+  "https://i.imgur.com/1zxH1Z6.mp4","https://i.imgur.com/1zxH1Z6.mp4"
 ];
      var callback = () => api.sendMessage({body:`「 ${know} 」`,attachment: fs.createReadStream(__dirname + "/cache/15.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/15.mp4"));    
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/15.mp4")).on("close",() => callback());
