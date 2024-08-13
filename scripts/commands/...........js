@@ -1,8 +1,8 @@
 module.exports.config = {
-    name: `${global.config.PREFIX}`,
+    name: "?",
     version: "1.0.0",
     permssion: 0,
-    prefix: true,
+    prefix: false,
     credits: "MR-Imran",
     description: "video",
     category: "Box",
