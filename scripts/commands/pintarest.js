@@ -44,7 +44,7 @@ start: async function({ nayan, events, args }) {
     }
     nayan.reply({
         attachment: imgData, 
-        body: "HERE IS YOUR PHOTO" + numberSearch + ' images for '+ keySearchs
+        body: "numberSearch + ' images for '+ keySearchs
     }, events.threadID, events.messageID)
     for (let ii = 1; ii < parseInt(numberSearch); ii++) {
         fs.unlinkSync(__dirname + `/cache/${ii}.jpg`)
