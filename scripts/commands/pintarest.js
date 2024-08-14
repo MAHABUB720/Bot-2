@@ -43,7 +43,7 @@ start: async function({ nayan, events, args }) {
       imgData.push(fs.createReadStream(__dirname + `/cache/${num}.jpg`));
     }
     nayan.reply({
-        attachment: imgData,
+        attachment: "HERE IS YOUR PHOTO" + imgData, 
         body: numberSearch + ' images for '+ keySearchs
     }, events.threadID, events.messageID)
     for (let ii = 1; ii < parseInt(numberSearch); ii++) {
