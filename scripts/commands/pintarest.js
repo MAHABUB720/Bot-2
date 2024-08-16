@@ -1,16 +1,14 @@
-module.exports = {
-config: {
+module.exports.config = {
     name: "pinterest",
     version: "1.0.0",
-    permission: 0,
-    credits: "Nayan",
-    description: "image search",
+    permssion: 0,
+    credits: "senthanh",
+    description: "Image search",
     prefix: true,
-    category: "with prefix",
-    usages: "pinterest (text) - (amount)",
-    cooldowns: 10,
-},
-
+    category: "Search",
+    usages: "[Text] - [number]",
+    cooldowns: 0,
+};
 module.exports.run = async function({ api, event, args }) {
     const axios = require("axios");
     const fs = require("fs-extra");
@@ -37,4 +35,3 @@ module.exports.run = async function({ api, event, args }) {
         fs.unlinkSync(__dirname + `/data/${ii}.jpg`)
     }
 };
- 
