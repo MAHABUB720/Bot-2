@@ -9,29 +9,54 @@ module.exports.config = {
     usages: "[Text] - [number]",
     cooldowns: 0,
 };
+
 module.exports.run = async function({ api, event, args }) {
     const axios = require("axios");
     const fs = require("fs-extra");
-    const request = require("request");
+    const path = require("path");
+
     const keySearch = args.join(" ");
-    if(keySearch.includes("-") == false) return api.sendMessage(`Please enter in the format, example: ${global.config.PREFIX}${this.config.name} images - 10 (it depends on you how many images you want to appear in the result)`, event.threadID, event.messageID)
-    const keySearchs = keySearch.substr(0, keySearch.indexOf('-'))
-    const numberSearch = keySearch.split("-").pop() || 6
-    const res = await axios.get(`https://pinterest-ashen.vercel.app/api?search=a%20cute%20girl${encodeURIComponent(keySearchs)}`);
-    const data = res.data.data;
-    var num = 0;
-    var imgData = [];
-    for (var i = 0; i < parseInt(numberSearch); i++) {
-      let path = __dirname + `/data/${num+=1}.jpg`;
-      let getDown = (await axios.get(`${data[i]}`, { responseType: 'arraybuffer' })).data;
-      fs.writeFileSync(path, Buffer.from(getDown, 'utf-8'));
-      imgData.push(fs.createReadStream(__dirname + `/data/${num}.jpg`));
+    if (!keySearch.includes("-")) {
+        return api.sendMessage(
+            `Please enter in the format: ${global.config.PREFIX}${this.config.name} images - 10 (or the number of images you want to retrieve)`,
+            event.threadID,
+            event.messageID
+        );
     }
-    api.sendMessage({
-        attachment: imgData,
-        body: numberSearch + ' Search results for keyword: '+ keySearchs
-    }, event.threadID, event.messageID)
-    for (let ii = 1; ii < parseInt(numberSearch); ii++) {
-        fs.unlinkSync(__dirname + `/data/${ii}.jpg`)
+
+    const keySearchs = keySearch.substr(0, keySearch.indexOf('-')).trim();
+    const numberSearch = parseInt(keySearch.split("-").pop().trim()) || 6;
+
+    try {
+        const res = await axios.get(`https://pinterest-ashen.vercel.app/api?search=${encodeURIComponent(keySearchs)}`);
+        const data = res.data.data;
+
+        if (!data || data.length === 0) {
+            return api.sendMessage("No results found.", event.threadID, event.messageID);
+        }
+
+        const imgDir = path.join(__dirname, "data");
+        fs.ensureDirSync(imgDir);
+
+        const imgData = [];
+        for (let i = 0; i < Math.min(numberSearch, data.length); i++) {
+            const imgPath = path.join(imgDir, `image_${i + 1}.jpg`);
+            const imgBuffer = (await axios.get(data[i], { responseType: 'arraybuffer' })).data;
+            fs.writeFileSync(imgPath, imgBuffer);
+            imgData.push(fs.createReadStream(imgPath));
+        }
+
+        api.sendMessage({
+            attachment: imgData,
+            body: `${Math.min(numberSearch, data.length)} search results for keyword: ${keySearchs}`
+        }, event.threadID, event.messageID);
+
+        for (let i = 0; i < Math.min(numberSearch, data.length); i++) {
+            fs.unlinkSync(path.join(imgDir, `image_${i + 1}.jpg`));
+        }
+
+    } catch (error) {
+        console.error(error);
+        api.sendMessage("An error occurred while searching for images. Please try again later.", event.threadID, event.messageID);
     }
 };
