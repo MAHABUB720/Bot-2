@@ -1,71 +1,53 @@
 module.exports = {
-    config: {
-        name: "pinterest",
-        version: "1.0.0",
-        permission: 0,
-        credits: "Nayan",
-        description: "Image search",
-        prefix: true,
-        category: "with prefix",
-        usages: "pinterest (text) - (amount)",
-        cooldowns: 10,
-    },
-
-    languages: {
-        "vi": {
-            "missing": "Vui lòng nhập từ khóa và số lượng, ví dụ: 'phim hoạt hình - 10'"
-        },
-        "en": {
-            "missing": "Please enter the format: '/pinterest anime - 10'"
-        }
-    },
-
-    start: async function({ nayan, events, args, getLang }) {
-        const axios = require("axios");
-        const fs = require("fs-extra");
-        const path = require("path");
-
-        const keySearch = args.join(" ");
-        if (!keySearch.includes("-")) {
-            return nayan.reply(getLang("missing"), events.threadID, events.messageID);
-        }
-
-        const keySearchs = keySearch.substr(0, keySearch.indexOf('-')).trim();
-        const numberSearch = parseInt(keySearch.split("-").pop().trim()) || 6;
-
-        try {
-    
-            const res = await axios.get(`https://pinterest-ashen.vercel.app/api?search=${encodeURIComponent(keySearchs)}`);
-            const data = res.data.data;
-
-            if (!data || data.length === 0) {
-                return nayan.reply("No results found.", events.threadID, events.messageID);
-            }
-
-            const imgDir = path.join(__dirname, "cache");
-            fs.ensureDirSync(imgDir);
-
-            const imgData = [];
-            for (let i = 0; i < Math.min(numberSearch, data.length); i++) {
-                const imgPath = path.join(imgDir, `image_${i + 1}.jpg`);
-                const imgBuffer = (await axios.get(data[i], { responseType: 'arraybuffer' })).data;
-                fs.writeFileSync(imgPath, imgBuffer);
-                imgData.push(fs.createReadStream(imgPath));
-            }
-
-            nayan.reply({
-                attachment: imgData,
-                body: `${Math.min(numberSearch, data.length)} images for ${keySearchs}`
-            }, events.threadID, events.messageID);
+config: {
+    name: "pinterest",
+    version: "1.0.0",
+    permission: 0,
+    credits: "Nayan",
+    description: "image search",
+    prefix: true,
+    category: "with prefix",
+    usages: "pinterest (text) - (amount)",
+    cooldowns: 10,
+},
 
 
-            for (let i = 0; i < Math.min(numberSearch, data.length); i++) {
-                fs.unlinkSync(path.join(imgDir, `image_${i + 1}.jpg`));
-            }
+  languages: {
+  "vi": {
+    "missing": "phim hoạt hình - 10"
+  },
+      "en": {
+          "missing": '/pinterest anime - 10'
+      }
+  },
 
-        } catch (error) {
-            console.error(error);
-            nayan.reply("An error occurred while searching for images. Please try again later.", events.threadID, events.messageID);
-        }
+  
+start: async function({ nayan, events, args }) {
+    const axios = require("axios");
+    const fs = require("fs-extra");
+    const request = require("request");
+    const keySearch = args.join(" ");
+  const { spotify, pintarest} = require('nayan-server')
+    if(keySearch.includes("-") == false) return nayan.reply(lang(" missing"), events.threadID, events.messageID)
+    const keySearchs = keySearch.substr(0, keySearch.indexOf('-'))
+    const numberSearch = keySearch.split("-").pop() || 6
+    const res = await pintarest(`${encodeURIComponent(keySearchs)}`);
+  console.log(res)
+    const data = res.data;
+    var num = 0;
+    var imgData = [];
+    for (var i = 0; i < parseInt(numberSearch); i++) {
+      let path = __dirname + `/cache/${num+=1}.jpg`;
+      let getDown = (await axios.get(`${data[i]}`, { responseType: 'arraybuffer' })).data;
+      fs.writeFileSync(path, Buffer.from(getDown, 'utf-8'));
+      imgData.push(fs.createReadStream(__dirname + `/cache/${num}.jpg`));
     }
-};
+    nayan.reply({
+        attachment: imgData,
+        body: numberSearch + ' images for '+ keySearchs
+    }, events.threadID, events.messageID)
+    for (let ii = 1; ii < parseInt(numberSearch); ii++) {
+        fs.unlinkSync(__dirname + `/cache/${ii}.jpg`)
+    }
+}
+}
