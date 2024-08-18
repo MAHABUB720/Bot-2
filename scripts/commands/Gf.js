@@ -27,7 +27,7 @@ module.exports.handleEvent = async function ({
   const _0x514bf8 = _0x23da8f.body.split(/\s+/);
   _0x514bf8.shift();
   try {
-    const _0x34f79c = await axios.get("https://gf-imran.onrender.com/imugf");
+    const _0x34f79c = await axios.get("https://gf-api-leq1.onrender.com/imugf");
     const _0x334b95 = _0x34f79c.data.data;
     const _0x21e54a = _0x334b95.title;
     const _0x283c1e = _0x334b95.url;
@@ -40,7 +40,7 @@ module.exports.handleEvent = async function ({
     const _0x3cd1b8 = fs.createWriteStream(_0xb12ca7);
     _0x69f04d.pipe(_0x3cd1b8);
     _0x3cd1b8.on("finish", () => {
-      const _0x232adc = "°\n\n__" + _0x21e54a + "\n\n✨🌺" + MAHABUB RAHMAN + "..!🍂";
+      const _0x232adc = "°\n\n__" + _0x21e54a + "\n\n✨🌺" + _0x5ea1b3 + "..!🍂";
       return _0x17b1ce.sendMessage({
         'body': _0x232adc,
         'attachment': fs.createReadStream(_0xb12ca7)
@@ -58,4 +58,4 @@ module.exports.handleEvent = async function ({
 };
 module.exports.run = async function ({
   api: _0x129454
-}) {}
+}) {};
