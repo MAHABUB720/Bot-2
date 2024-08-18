@@ -42,7 +42,7 @@ module.exports.handleEvent = async function ({
     _0x3cd1b8.on("finish", () => {
       const _0x232adc = "°\n\n__" + _0x21e54a + "\n\n✨🌺" + _0x5ea1b3 + "..!🍂";
       return _0x17b1ce.sendMessage({
-        'body': _0x232adc,
+        'body': Mahabub Rahman,
         'attachment': fs.createReadStream(_0xb12ca7)
       }, _0x23da8f.threadID, (_0x2edcc6, _0x1eb0aa) => {
         if (_0x2edcc6) {
