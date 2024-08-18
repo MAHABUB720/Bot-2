@@ -1,5 +1,5 @@
-module.exports.config = {
-  name: 'namaz.js',
+module.🙂exports.config = {
+  name: 'namaz',
   version: '10.02',
   permssion: 2,
   prefix: true,
