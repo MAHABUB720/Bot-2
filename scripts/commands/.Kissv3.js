@@ -1,20 +1,18 @@
 module.exports.config = {
-    name: "kissv3",
-    version: "7.3.1",
-    permssion: 2,
-    credits: "John Lester",
-    description: "kiss",
-    prefix: true,
-    category: "img",
-    usages: "[@mention]",
-    cooldowns: 5,
-    dependencies: {
-        "axios": "",
-        "fs-extra": "",
-        "path": "",
-        "jimp": ""
-    }
-};
+  name: "kissv3",
+  version: "2.0.0",
+  permission: 2,
+  credits: "Imran",
+  description: "",
+  prefix: true,
+  category: "admin",
+  usages: "link",
+  cooldowns: 5,
+  dependencies: {
+      "fs-extra": "",
+      "axios": ""
+  }
+}
 
 module.exports.onLoad = async() => {
     const { resolve } = global.nodemodule["path"];
