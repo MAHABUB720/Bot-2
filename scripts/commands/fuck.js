@@ -1,21 +1,17 @@
-module.exports.config = {
-  name: "fuckv2",
-  version: "3.1.1",
-  permssion: 2,
-  credits: "Nayan",
-  description: "Get fuck",
+module.exports.config = {module.exports.config = {
+  name: "fuck",
+  version: "2.0.0",
+  permission: 2,
+  credits: "MAHABUB",
+  description: "",
   prefix: true,
-  category: "img",
-  usages: "[@mention]",
+  category: "admin",
+  usages: "link",
   cooldowns: 5,
   dependencies: {
-      "axios": "",
       "fs-extra": "",
-      "path": "",
-      "jimp": ""
+      "axios": ""
   }
-};
-
 module.exports.onLoad = async() => {
   const { resolve } = global.nodemodule["path"];
   const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
