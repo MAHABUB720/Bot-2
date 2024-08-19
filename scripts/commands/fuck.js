@@ -8,10 +8,7 @@ module.exports.config = {module.exports.config = {
   category: "admin",
   usages: "link",
   cooldowns: 5,
-  dependencies: {
-      "fs-extra": "",
-      "axios": ""
-  }
+}
 module.exports.onLoad = async() => {
   const { resolve } = global.nodemodule["path"];
   const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
