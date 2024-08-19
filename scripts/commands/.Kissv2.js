@@ -1,10 +1,11 @@
 module.exports.config = {
 	name: "kissv2",
 	version: "7.3.1",
-	hasPermssion: 2,
+	permssion: 2,
 	credits: "John Lester",
 	description: "kiss",
-	commandCategory: "edit-img",
+        prefix: true,
+        category: "edit-img",
 	usages: "[blank or tag]",
 	cooldowns: 5,
 	dependencies: {"fs-extra": "","discord.js": "","discord-image-generation" :"","node-superfetch": ""}
