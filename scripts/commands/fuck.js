@@ -1,4 +1,4 @@
-module.exports.config = {module.exports.config = {
+module.exports.config = {
   name: "fuck",
   version: "2.0.0",
   permission: 2,
