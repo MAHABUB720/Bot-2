@@ -1,20 +1,18 @@
 module.exports.config = {
-    name: "kiss",
-    version: "2.0.0",
-    permssion: 1,
-    prefix: true,
-    credits: "ZiaRein",
-    description: "kiss someone",
-    category: "Love",
-    usages: `Please tag 1 person\n\nHow to use?\n${global.config.PREFIX}kiss <@tag>\n\nExample:\n${global.config.PREFIX}kiss @name\n`,
-    cooldowns: 5,
-    dependencies: {
-        "axios": "",
-        "fs-extra": "",
-        "path": "",
-        "jimp": ""
-    }
-};
+  name: "kiss",
+  version: "2.0.0",
+  permission: 2,
+  credits: "Imran",
+  description: "",
+  prefix: true,
+  category: "admin",
+  usages: "link",
+  cooldowns: 5,
+  dependencies: {
+      "fs-extra": "",
+      "axios": ""
+  }
+}
 
 module.exports.onLoad = async() => {
     const { resolve } = global.nodemodule["path"];
