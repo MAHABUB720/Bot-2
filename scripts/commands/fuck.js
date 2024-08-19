@@ -7,8 +7,8 @@ module.exports.config = {module.exports.config = {
   prefix: true,
   category: "admin",
   usages: "link",
-  cooldowns: 5,
-}
+  cooldowns: 5
+};
 module.exports.onLoad = async() => {
   const { resolve } = global.nodemodule["path"];
   const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
