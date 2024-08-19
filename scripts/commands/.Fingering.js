@@ -1,20 +1,18 @@
 module.exports.config = {
   name: "fingering",
-  version: "3.1.1",
-  permssion: 2,
+  version: "2.0.0",
+  permission: 2,
+  credits: "mahabub",
+  description: "",
   prefix: true,
-  credits: "Nayan",
-  description: "Get fuck",
-  category: "img",
-  usages: "[@mention]",
+  category: "admin",
+  usages: "link",
   cooldowns: 5,
   dependencies: {
-      "axios": "",
       "fs-extra": "",
-      "path": "",
-      "jimp": ""
+      "axios": ""
   }
-};
+}
 
 
 module.exports.onLoad = async() => {
