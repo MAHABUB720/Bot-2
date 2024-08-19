@@ -1,26 +1,18 @@
-/**
-* @author ProCoderMew
-* @warn Do not edit code or edit credits
-*/
-
 module.exports.config = {
-    name: "hug",
-    version: "2.0.0",
-    permssion: 2,
-    credits: "Mahabub Rahman",
-    description: "",
-    prefix: true,
-    category: "Love",
-    usages: "[tag]",
-    cooldowns: 5,
-    dependencies: {
-        "axios": "",
-        "fs-extra": "",
-        "path": "",
-        "jimp": ""
-    }
-};
-
+  name: "hug",
+  version: "2.0.0",
+  permission: 2,
+  credits: "MAHABUB",
+  description: "",
+  prefix: true,
+  category: "admin",
+  usages: "link",
+  cooldowns: 5,
+  dependencies: {
+      "fs-extra": "",
+      "axios": ""
+  }
+}
 module.exports.onLoad = async() => {
     const { resolve } = global.nodemodule["path"];
     const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
