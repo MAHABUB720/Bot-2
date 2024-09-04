@@ -1,9 +1,9 @@
 module.exports = async ({ api, event }) => {
-  const logger = require('./Nayan/catalogs/Nayanc.js')
+  const logger = require('./CYBER/catalogs/Mhabubc.js')
   
   const configCustom = {
     autosetbio: {
-      status: false,
+      status: true,
       bio: `prefix : ${global.config.PREFIX}`,
       note: 'automatically change the bot bio.'
     },
@@ -135,7 +135,7 @@ if (á = nam.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString()
   function autoRestart(config) {
     if(config.status) {
       setInterval(async () => {
-        logger(`auto restart is processing, please wait.`, "Nayan")
+        logger(`auto restart is processing, please wait.`, "Mahabub")
         process.exit(1)
       }, config.time * 60 * 1000)
     }
